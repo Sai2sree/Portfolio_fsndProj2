@@ -1,0 +1,145 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Beginning of CSS "Clean Slate" */
+/*
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	margin-top: 10px;
+}
+*/
+/* END of CSS "Clean Slate" */
+
+/* HTML5 display-role reset for older browsers */
+/*article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+*/
+body{
+    font-family: Georgia, 'Lato', sans-serif;
+    color: #747704;
+    color: #000;
+    font-weight: 300;
+    background-color: #eee;
+}
+h1{
+    font-weight:bold;
+    font-size: 60px;
+    background-color: #ddd;
+    color: #000;
+    width:108%;
+    border-radius: 4px;
+    text-align: justify;
+    padding: 2px 5px;
+}
+h3{
+    font-style: italic;
+    background-color: #000;
+    color: #fff;
+    width: 53%;
+    border-radius: 4px;
+    padding: 2px 5px;
+    text-align: center;
+    margin-left:25%;
+}
+h5{
+    font-family:Georgia, sans-serif;
+    font-weight: bold;
+    font-size: 1.2em;
+    text-decoration: underline;
+    text-align: center;
+    clear: both;
+}
+.logo{
+    width: 120px;
+    height:100px;
+    margin-top: 20px;
+}
+.text-muted{
+    color: #BCBBBB;
+}
+.titles{
+    margin-top: 20px;
+    margin-left:-30px;
+}
+.myPic{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+#fsndPic{
+    margin: 0px auto;
+}
+header{
+    background-color:#3b5998;
+    padding: 5px 0px;
+    margin-top: 10px;
+    border-radius: 4px;
+}
+hr {
+    display: block;
+    border-top: 1px solid #aaa;
+    margin: 1em 0;
+}
+.projectPic{
+ height: 300px;   
+}
+.slideShow{
+    height: 350px;
+    width: 100%;
+}
+.top_of_page{
+	width: 50px;
+	height:50px;
+	float: right;
+    display: inline;
+}
+footer p{
+    font-family: sans-serif;
+    clear:both;
+    color:blue;
+    font-size:0.8em;
+    text-decoration: blink;
+    text-align: center;
+}
+footer img{
+    height:13px;
+}
