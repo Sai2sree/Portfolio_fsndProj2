@@ -84,10 +84,8 @@ h2{
     font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
-    width: 22%;
     border-radius: 4px;
     padding: 2px 5px;
-    text-align: center;
     margin-bottom: 20px;
 }
 h3{
@@ -191,9 +189,6 @@ footer img{
         font-size: 50px;
         width: 110%;
     }    
-    h2{
-        width: 29%;
-    }
     header h2{
         font-size: 2em;
         width: 80%;
@@ -243,8 +238,7 @@ footer img{
         width: 35%;        
     }
     h2{
-        font-size: 2.3em;
-        width: 40%;                
+        font-size: 2.3em;          
     }
     .projectPic{
         margin: 10px auto;
@@ -288,4 +282,76 @@ footer img{
     header{
         padding-bottom: 20px;
     }
+}
+@media screen and (max-width:412px){
+    .myPic{
+        height:70px;
+        width: 70px;
+        float: left; 
+    }
+    .logo{
+        height:70px;
+        width: 70px;
+        float: right;
+    }
+    h1{
+        font-size: 2.3em;
+        margin: 30px 0px 0px 116px;
+        text-align: center;
+        width: 52%;
+    }
+    header h2{
+        font-size: 1.4em;
+        margin: 0px 0px 10px 146px;
+        width: 38%;
+    }
+    h2{
+        font-size: 1.8em;
+        margin-bottom: 10px;
+    }
+    .slideShow{
+        height: 200px;      
+        margin-bottom: 10px;
+    }
+    .projectPic{
+        margin: 10px auto;
+        height: 200px;
+    }
+    .movieTrailer{
+        font-size: 1.3em;
+        width: 52%;   
+    }
+    .portfolio{
+        font-size: 1.3em;
+        width: 30%;   
+    }
+    .logsAnalysis{
+        font-size: 1.3em;
+        width: 35%;   
+    }
+    .itemCatalog{
+        font-size: 1.3em;
+        width: 32%;   
+    }
+    .map{
+        font-size: 1.3em;
+        width: 45%;   
+    }
+    .linuxConfig{
+        font-size: 1.3em;
+        width: 63%;   
+    }
+    a{
+        font-size: 18px;
+    }
+    footer p{
+        font-size: 1.1em;
+    }
+    h5{
+        font-size: 1.2em;
+    }
+    footer img{
+        height:0.8em;
+}
+
 }
