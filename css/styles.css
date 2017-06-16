@@ -1,56 +1,5 @@
 @charset "utf-8";
-/* CSS Document */
 
-/* Beginning of CSS "Clean Slate" */
-/*
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-	margin-top: 10px;
-}
-*/
-/* END of CSS "Clean Slate" */
-
-/* HTML5 display-role reset for older browsers */
-/*article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-*/
 body{
     font-family: Georgia, sans-serif;
     color: #000;
@@ -91,6 +40,7 @@ h2{
 h3{
     font-style: italic;
     font-size: 25px;
+    font-weight: bold;
     background-color: #000;
     color: #fff;
     border-radius: 4px;
@@ -105,13 +55,13 @@ h5{
     text-align: center;
     clear: both;
 }
+p{
+    font-size: 1.2em;
+}
 .logo{
     width: 120px;
     height:100px;
     margin-top: 20px;
-}
-.text-muted{
-    color: #BCBBBB;
 }
 .titles{
     margin-top: 20px;
@@ -123,9 +73,6 @@ h5{
     border-radius: 8px;
     margin-top: 20px;
     margin-left: 5px;
-}
-#fsndPic{
-    margin: 0px auto;
 }
 header{
     background-color:#3b5998;
@@ -160,6 +107,8 @@ footer p{
     text-decoration: blink;
     text-align: center;
 }
+
+/* Project Pic dimensions*/
 footer img{
     height:13px;
 }
@@ -181,6 +130,10 @@ footer img{
 .linuxConfig{
  width: 60%;   
 }
+
+/* Media queries*/
+
+/* for ipad pro */
 @media screen and (max-width:1024px) and (min-width:769px){
     body{
 
@@ -193,6 +146,9 @@ footer img{
         font-size: 2em;
         width: 80%;
         margin-left: 45px;
+    }
+    p{
+    font-size: 1.7em;
     }
     .movieTrailer{
         width: 60%;   
@@ -225,6 +181,8 @@ footer img{
         height:0.8em;
 }
 }
+
+/* for ipad */
 @media screen and (max-width:768px) and (min-width:413px){
     h1{
         margin: 0px auto;
@@ -239,6 +197,9 @@ footer img{
     }
     h2{
         font-size: 2.3em;          
+    }
+    p{
+    font-size: 1.7em;
     }
     .projectPic{
         margin: 10px auto;
@@ -282,6 +243,8 @@ footer img{
     header{
         padding-bottom: 20px;
     }
+    
+    /* for Nexus5X */
 }
 @media screen and (max-width:412px){
     .myPic{
