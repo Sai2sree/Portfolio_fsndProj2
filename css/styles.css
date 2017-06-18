@@ -1,15 +1,15 @@
 @charset "utf-8";
-body{
+
+body {
     font-family: Georgia, sans-serif;
     color: #000;
-    font-weight: 300;
-    background-color: #eee;
+    background: #eee;
 }
 
-h1{
-    font-weight:bold;
+h1 {
+    font-weight: bold;
     font-size: 60px;
-    background-color: #ddd;
+    background: #ddd;
     color: #000;
     width:108%;
     border-radius: 4px;
@@ -17,21 +17,21 @@ h1{
     padding: 2px 5px;
 }
 
-header h2{
+header h2 {
     font-style: italic;
     font-size: 25px;
     font-weight: normal;
-    background-color: #000;
+    background: #000;
     color: #fff;
     width: 60%;
     border-radius: 4px;
     padding: 2px 5px;
     text-align: center;
-    margin-left:25%;
+    margin-left: 25%;
     text-decoration: none;
 }
 
-h2{
+h2 {
     font-size: 30px;
     font-weight: bold;
     text-decoration: underline;
@@ -40,18 +40,17 @@ h2{
     margin-bottom: 20px;
 }
 
-h3{
+h3 {
     font-style: italic;
     font-size: 25px;
-    background-color: #000;
+    background: #000;
     color: #fff;
     border-radius: 4px;
     padding: 2px 5px;
     margin: 5px auto;
 }
 
-h5{
-    font-family:Georgia, sans-serif;
+h5 {
     font-weight: bold;
     font-size: 1.2em;
     text-decoration: underline;
@@ -59,22 +58,22 @@ h5{
     clear: both;
 }
 
-p{
+p {
     font-size: 1.4em;
 }
 
-.logo{
+.logo {
     width: 120px;
-    height:100px;
+    height: 100px;
     margin-top: 20px;
 }
 
-.titles{
+.titles {
     margin-top: 20px;
-    margin-left:-30px;
+    margin-left: -30px;
 }
 
-.myPic{
+.myPic {
     width: 100px;
     height: 100px;
     border-radius: 8px;
@@ -82,8 +81,8 @@ p{
     margin-left: 5px;
 }
 
-header{
-    background-color:#3b5998;
+header {
+    background: #3b5998;
     padding: 5px 0px;
     margin-top: 10px;
     border-radius: 4px;
@@ -95,28 +94,28 @@ hr {
     margin: 1em 0;
 }
 
-.projectPic{
- height: 300px;   
- margin-top: 20px;    
+.projectPic {
+    height: 300px;   
+    margin-top: 20px;    
 }
 
-.slideShow{
+.slideShow {
     height: 420px;
     width: 100%;
 }
 
-.top_of_page{
+.top_of_page {
 	width: 70px;
-	height:70px;
+	height: 70px;
 	float: right;
     display: inline;
 }
 
-footer p{
+footer p {
     font-family: sans-serif;
-    clear:both;
-    color:blue;
-    font-size:0.8em;
+    clear: both;
+    color: blue;
+    font-size: 0.8em;
     text-decoration: blink;
     text-align: center;
 }
@@ -124,32 +123,32 @@ footer p{
 
 /* Project Pic dimensions*/
 
-footer img{
-    height:13px;
+footer img {
+    height: 13px;
 }
 
-.movieTrailer{
- width: 49%;   
+.movieTrailer {
+    width: 49%;   
 }
 
-.portfolio{
- width: 29%;   
+.portfolio {
+    width: 29%;   
 }
 
-.logsAnalysis{
- width: 32%;   
+.logsAnalysis {
+    width: 32%;   
 }
 
-.itemCatalog{
- width: 31%;   
+.itemCatalog {
+    width: 31%;   
 }
 
-.map{
- width: 44%;   
+.map {
+    width: 44%;   
 }
 
-.linuxConfig{
- width: 60%;   
+.linuxConfig {
+    width: 60%;   
 }
 
 /* Media queries*/
@@ -158,221 +157,231 @@ footer img{
 
 @media screen and (max-width:1024px) and (min-width:769px){
 
-    h1{
+    h1 {
         font-size: 50px;
         width: 110%;
     }
     
-    header h2{
+    header h2 {
         font-size: 2em;
         width: 80%;
         margin-left: 45px;
     }
     
-    .movieTrailer{
+    p {
+        font-size: 2.3em;
+    }
+    
+    .movieTrailer {
         width: 60%;   
     }
     
-    .portfolio{
+    .portfolio {
         width: 36%;   
     }
     
-    .logsAnalysis{
+    .logsAnalysis {
         width: 40%;   
     }
     
-    .itemCatalog{
+    .itemCatalog {
         width: 39%;   
     }
     
-    .map{
+    .map {
         width: 54%;   
     }
     
-    .linuxConfig{
+    .linuxConfig {
         width: 74%;   
     }
     
-    a{
+    a {
         font-size: 26px;
     }
     
-    footer p{
+    footer p {
         font-size: 1.5em;
     }
     
-    h5{
+    h5 {
         font-size: 1.6em;
     }
     
-    footer img{
-        height:0.8em;
+    footer img {
+        height: 0.8em;
     }
 }
 
 /* for ipad */
+
 @media screen and (max-width:768px) and (min-width:413px){
-    h1{
+    h1 {
         margin: 0px auto;
         text-align: center;
         width: 53%;
     }
     
-    header h2{
+    header h2 {
         font-size: 2.3em;
         margin: 0px auto;
         text-align: center;
         width: 35%;        
     }
     
-    h2{
+    h2 {
         font-size: 2.3em;          
     }
     
-    .projectPic{
+    p {
+        font-size: 2em;
+    }
+    
+    .projectPic {
         margin: 10px auto;
     }
     
-    .movieTrailer{
+    .movieTrailer {
         width: 38%;   
     }
     
-    .portfolio{
+    .portfolio {
         width: 23%;   
     }
     
-    .logsAnalysis{
+    .logsAnalysis {
         width: 25%;   
     }
     
-    .itemCatalog{
+    .itemCatalog {
         width: 24%;   
     }
     
-    .map{
+    .map  {
         width: 34%;   
     }
     
-    .linuxConfig{
+    .linuxConfig {
         width: 46%;   
     }
     
-    a{
+    a {
         font-size: 26px;
     }
     
-    footer p{
+    footer p {
         font-size: 1.5em;
     }
     
-    h5{
+    h5 {
         font-size: 1.6em;
     }
     
-    footer img{
-        height:0.8em;
+    footer img {
+        height: 0.8em;
     }
     
-    .myPic{
+    .myPic {
         float: left; 
     }
     
-    .logo{
+    .logo {
         float: right;
     }
     
-    header{
+    header {
         padding-bottom: 20px;
     }
     
     /* for Nexus5 */
 }
-@media screen and (max-width:412px){
+
+@media screen and (max-width:412px) {
     
-    .myPic{
-        height:70px;
+    .myPic {
+        height: 70px;
         width: 70px;
         float: left; 
     }
     
-    .logo{
-        height:70px;
+    .logo {
+        height: 70px;
         width: 70px;
         float: right;
     }
     
-    h1{
+    h1 {
         font-size: 2.3em;
         margin: 30px 0px 0px 116px;
         text-align: center;
         width: 52%;
     }
     
-    header h2{
+    header h2 {
         font-size: 1.4em;
         margin: 0px 0px 10px 146px;
         width: 38%;
     }
     
-    h2{
+    h2 {
         font-size: 1.8em;
         margin-bottom: 10px;
     }
     
-    .slideShow{
+    .slideShow {
         height: 200px;      
         margin-bottom: 10px;
     }
     
-    .projectPic{
+    .projectPic {
         margin: 10px auto;
         height: 200px;
     }
     
-    .movieTrailer{
+    .movieTrailer {
         font-size: 1.3em;
         width: 52%;   
     }
     
-    .portfolio{
+    .portfolio {
         font-size: 1.3em;
         width: 30%;   
     }
     
-    .logsAnalysis{
+    .logsAnalysis {
         font-size: 1.3em;
         width: 35%;   
     }
     
-    .itemCatalog{
+    .itemCatalog {
         font-size: 1.3em;
         width: 32%;   
     }
     
-    .map{
+    .map {
         font-size: 1.3em;
         width: 45%;   
     }
     
-    .linuxConfig{
+    .linuxConfig {
         font-size: 1.3em;
         width: 63%;   
     }
     
-    a{
+    a {
         font-size: 18px;
     }
     
-    footer p{
+    footer p {
         font-size: 1.1em;
     }
     
-    h5{
+    h5 {
         font-size: 1.2em;
     }
     
-    footer img{
-        height:0.8em;
+    footer img {
+        height: 0.8em;
     }
 
 }
